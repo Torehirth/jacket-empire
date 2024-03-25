@@ -1,5 +1,5 @@
 /*
-Theme Name: Twenty Twenty
+Theme Name: storefront-child
 Template: storefront
 Theme URI: https://wordpress.org/themes/storefront
 Storefront Child Theme Author: Tore Hirth
@@ -16,3 +16,15 @@ Tags: jacketempire
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+.page-template-template-homepage:not(.has-post-thumbnail) .site-main {
+  padding-top: 0;
+}
+
+.page-template-template-homepage .type-page {
+  padding-top: 0;
+}
+
+.wp-block-group {
+  margin-top: 2em;
+}
